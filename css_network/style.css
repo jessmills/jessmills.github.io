@@ -575,3 +575,9 @@ cursor: pointer;
 display: none;
 }
 
+iframe {
+margin-left:auto;
+margin-right:auto;
+}
+
+

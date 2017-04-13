@@ -575,7 +575,7 @@ cursor: pointer;
 display: none;
 }
 
-iframe {
+#iframe {
 margin-left:auto;
 margin-right:auto;
 }

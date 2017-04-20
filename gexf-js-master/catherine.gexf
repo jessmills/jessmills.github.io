@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-04-20">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="relationship" title="Relationship" type="string"></attribute>
+      <attribute id="gender" title="Gender" type="string"></attribute>
+      <attribute id="death" title="Death" type="string"></attribute>
+      <attribute id="biography" title="Biography" type="string"></attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="url" title="URL" type="string"></attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Catherine">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="biography" value=""></attvalue>
+          <attvalue for="clustering" value="0.07977207977207977"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6262626262626263"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.756720430107527"></attvalue>
+          <attvalue for="betweenesscentrality" value="1291.0404848127655"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="206.66595" y="-291.6734"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="1" label="Alessia dei Saracini">
+        <attvalues>
+          <attvalue for="relationship" value="Companion"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.32124352331606215"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3827956989247311"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.5492063492063491"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="741.2385" y="-43.39332"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="2" label="Raymond of Capua">
+        <attvalues>
+          <attvalue for="relationship" value="Spiritual Advisor"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.446774193548387"></attvalue>
+          <attvalue for="betweenesscentrality" value="72.33746159754227"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="807.61115" y="-237.6304"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="3" label="Pope Gregory XI">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="March 27, 1378"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2594142259414226"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.28790322580645156"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="-227.83841" y="1021.7352"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="4" label="Tommaso dalla Fonte">
+        <attvalues>
+          <attvalue for="relationship" value="First Confessor/Cousin"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.5714285714285714"></attvalue>
+          <attvalue for="triangles" value="16"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4460431654676259"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5368279569892471"></attvalue>
+          <attvalue for="betweenesscentrality" value="87.69921285195296"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="34.02778"></viz:size>
+        <viz:position x="469.78937" y="37.311985"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="5" label="Iacomo di Benincasa">
+        <attvalues>
+          <attvalue for="relationship" value="Father"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1368"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="12"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4217687074829932"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4951612903225805"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.983333333333334"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="349.52286" y="-89.35563"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="6" label="Monna Lapa">
+        <attvalues>
+          <attvalue for="relationship" value="Mother"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="clustering" value="0.4444444444444444"></attvalue>
+          <attvalue for="triangles" value="16"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.43356643356643354"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5274193548387095"></attvalue>
+          <attvalue for="betweenesscentrality" value="80.73149524885453"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="36.666668"></viz:size>
+        <viz:position x="554.11145" y="-29.70286"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="7" label="Nuccio(Puccio) di Piacente">
+        <attvalues>
+          <attvalue for="relationship" value="Grandfather/Sienese Poet"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.30392156862745096"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3376344086021505"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="890.46326" y="50.92815"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="8" label="Benincasa ">
+        <attvalues>
+          <attvalue for="relationship" value="Brother/Wool shop owner"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="Sometime after 1397"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4246575342465753"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4857526881720429"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.983608058608051"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="291.46152" y="-28.159925"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="9" label="Bartolomeo">
+        <attvalues>
+          <attvalue for="relationship" value="Brother/Wool shop owner/Lisa"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1374"></attvalue>
+          <attvalue for="clustering" value="0.6"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.42758620689655175"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4938172043010752"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.566147741147743"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.833334"></viz:size>
+        <viz:position x="382.86295" y="-21.495474"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="10" label="Stefano">
+        <attvalues>
+          <attvalue for="relationship" value="Brother/Wool shop owner"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4246575342465753"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4857526881720429"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.983608058608051"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="294.63757" y="35.52716"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="11" label="Dodici">
+        <attvalues>
+          <attvalue for="relationship" value="Powerful Government in Siena"></attvalue>
+          <attvalue for="gender" value="G"></attvalue>
+          <attvalue for="clustering" value="0.17857142857142858"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39490445859872614"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46370967741935454"></attvalue>
+          <attvalue for="betweenesscentrality" value="86.36487510509454"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="28.75"></viz:size>
+        <viz:position x="97.017204" y="146.57228"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="12" label="Buonavenutra">
+        <attvalues>
+          <attvalue for="relationship" value="Sister"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="death" value="1362"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4217687074829932"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4951612903225805"></attvalue>
+          <attvalue for="betweenesscentrality" value="37.88333333333333"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="349.26285" y="99.43969"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="13" label="Niccolo Tegliacci">
+        <attvalues>
+          <attvalue for="relationship" value="Brother-In-Law"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3647849462365591"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.6761904761904762"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="268.67636" y="422.40637"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="14" label="Lisa">
+        <attvalues>
+          <attvalue for="relationship" value="Sister-In-Law/Companion/Bartolomeo"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4105960264900662"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4736559139784945"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.986653979013303"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="536.4168" y="-150.41739"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="15" label="Mantellate">
+        <attvalues>
+          <attvalue for="gender" value="R"></attvalue>
+          <attvalue for="clustering" value="0.5"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4105960264900662"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4736559139784945"></attvalue>
+          <attvalue for="betweenesscentrality" value="22.732845735285732"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.833334"></viz:size>
+        <viz:position x="652.91345" y="-127.86522"></viz:position>
+        <viz:color r="35" g="150" b="111"></viz:color>
+      </node>
+      <node id="16" label="Tommaso Caffarini">
+        <attvalues>
+          <attvalue for="relationship" value="Hagiographer/friar"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.30845771144278605"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.34677419354838707"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.5"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="494.59766" y="506.34512"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="17" label="Alfonso da Vadaterra">
+        <attvalues>
+          <attvalue for="relationship" value="Birgitta of Sweden's Confessor"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.16666666666666666"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4217687074829932"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4696236559139783"></attvalue>
+          <attvalue for="betweenesscentrality" value="149.69887934646002"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="228.80354" y="333.8696"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="18" label="Birgitta of Sweden">
+        <attvalues>
+          <attvalue for="relationship" value="visionary queen"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="death" value="1373"></attvalue>
+          <attvalue for="clustering" value="0.16666666666666666"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3728494623655912"></attvalue>
+          <attvalue for="betweenesscentrality" value="86.94562243312241"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="-131.44028" y="711.8042"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="19" label="Bartolomeo Dominici">
+        <attvalues>
+          <attvalue for="relationship" value="Friar/disciple"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="July 3, 1415"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="url" value=""></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33879781420765026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.39919354838709653"></attvalue>
+          <attvalue for="betweenesscentrality" value="18.788827838827835"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="571.3706" y="332.58875"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="20" label="Pierre d'Estaing">
+        <attvalues>
+          <attvalue for="relationship" value="Papal State govenor"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2897196261682243"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3260752688172042"></attvalue>
+          <attvalue for="betweenesscentrality" value="20.826724664224656"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="-481.4963" y="573.9099"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="21" label="Gerard du Puy">
+        <attvalues>
+          <attvalue for="relationship" value="Papal State govenor"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="biography" value="Gregory XI nephew"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2818181818181818"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3206989247311828"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.43376623376623"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="-259.1577" y="794.86707"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="22" label="Riformatori">
+        <attvalues>
+          <attvalue for="relationship" value="Government post-dodici"></attvalue>
+          <attvalue for="gender" value="G"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.37349397590361444"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43413978494623656"></attvalue>
+          <attvalue for="betweenesscentrality" value="97.81892491566403"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="-592.6664" y="164.59949"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="23" label="Salimbeni Family">
+        <attvalues>
+          <attvalue for="relationship" value="Noble Sienese Family"></attvalue>
+          <attvalue for="gender" value="N"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36470588235294116"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.40456989247311814"></attvalue>
+          <attvalue for="betweenesscentrality" value="54.74805194805197"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="-202.45828" y="369.05548"></viz:position>
+        <viz:color r="255" g="112" b="69"></viz:color>
+      </node>
+      <node id="24" label="Francesco Bruni">
+        <attvalues>
+          <attvalue for="relationship" value="Sienese papal secretary"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-2391.3784" y="13931.701"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="25" label="Tolomei Family">
+        <attvalues>
+          <attvalue for="relationship" value="Noble Sienese Family"></attvalue>
+          <attvalue for="gender" value="N"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.29107981220657275"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3419354838709677"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.166666666666667"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="-954.0905" y="128.04605"></viz:position>
+        <viz:color r="255" g="112" b="69"></viz:color>
+      </node>
+      <node id="26" label="Andrea Naddini">
+        <attvalues>
+          <attvalue for="relationship" value="from a prominent family in Siena"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="biography" value="Sienese govt"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.446774193548387"></attvalue>
+          <attvalue for="betweenesscentrality" value="34.12490193498259"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="446.50833" y="204.24289"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="27" label="Messer Niccolò de' Saracini">
+        <attvalues>
+          <attvalue for="relationship" value="Noble Sienese"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4225806451612902"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="491.06207" y="-687.0221"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="28" label="Vico da Mogiano">
+        <attvalues>
+          <attvalue for="relationship" value="Sienese Senator"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="4"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4025974025974026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45349462365591386"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.8095238095238093"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="-109.73553" y="-611.29333"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="29" label="Piertro Marchese del Monte Santa Maria">
+        <attvalues>
+          <attvalue for="relationship" value="Sienese Senator"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4305555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4784946236559139"></attvalue>
+          <attvalue for="betweenesscentrality" value="83.61826784326787"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="-335.46814" y="-529.08545"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="30" label="Andreasso Cavalcabuoi">
+        <attvalues>
+          <attvalue for="relationship" value="Sienese Senator"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4454301075268816"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="-126.70229" y="-493.04865"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="31" label="Madonna Mitarella">
+        <attvalues>
+          <attvalue for="relationship" value="Vico da Magiano's Wife"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.389937106918239"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43064516129032243"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="4.1719995" y="-730.7426"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="32" label="Parte Guelfa">
+        <attvalues>
+          <attvalue for="relationship" value="Political Party in Florence"></attvalue>
+          <attvalue for="gender" value="G"></attvalue>
+          <attvalue for="clustering" value="0.19444444444444445"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3668639053254438"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.44623655913978466"></attvalue>
+          <attvalue for="betweenesscentrality" value="54.934498834498804"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="31.38889"></viz:size>
+        <viz:position x="100.595856" y="-481.65594"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="33" label="Carlo Strozzi">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39490445859872614"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43602150537634393"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="387.44495" y="-522.7356"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="34" label="Niccolò Soderini">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39490445859872614"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43602150537634393"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.513911136302026"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="257.70917" y="-431.0643"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="35" label="Piero Canigiani">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower, Barduccio's father"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1381"></attvalue>
+          <attvalue for="clustering" value="0.9"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4025974025974026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46021505376344074"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="321.86942" y="-646.6962"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="36" label="Ristoro Canigiani">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower, Barduccio's brother"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1380"></attvalue>
+          <attvalue for="clustering" value="0.9"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4025974025974026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46021505376344074"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="211.35904" y="-611.6598"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="37" label="Barduccio Canigiani">
+        <attvalues>
+          <attvalue for="relationship" value="Scribe, Guelf"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1382"></attvalue>
+          <attvalue for="clustering" value="0.9"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4025974025974026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46021505376344074"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="255.03798" y="-688.1011"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="38" label="Cristoforo Canigiani">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower, Barduccio's brother"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.9"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4025974025974026"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46021505376344074"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="295.43982" y="-562.9667"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="39" label="Stoldo di Bindo Altoviti">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39490445859872614"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43602150537634393"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="160.42804" y="-734.7946"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="40" label="Lapo di Castiglionchio ">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3974358974358974"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4440860215053762"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="81.27283" y="-641.1286"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="41" label="Buonaccorso di Lapo">
+        <attvalues>
+          <attvalue for="relationship" value="Guelf, follower, Lapo di Castiglionchio's son"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3974358974358974"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4440860215053762"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.256955568151013"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="12.485324" y="-566.7056"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="42" label="William Flete">
+        <attvalues>
+          <attvalue for="relationship" value="Augustian hermit, clerical supporter"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1390"></attvalue>
+          <attvalue for="clustering" value="0.16666666666666666"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4626865671641791"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5013440860215053"></attvalue>
+          <attvalue for="betweenesscentrality" value="117.14254622189408"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="-168.55347" y="89.151344"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="43" label="Nanni di ser Vanni Savini">
+        <attvalues>
+          <attvalue for="relationship" value="Dodici supporter"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="biography" value="William Flete was spiritual advisor"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4246575342465753"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48252688172043"></attvalue>
+          <attvalue for="betweenesscentrality" value="119.32184778217592"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="-290.9968" y="-15.61585"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="44" label="Neri di Landoccio Pagliaresi">
+        <attvalues>
+          <attvalue for="relationship" value="Scribe, political figure"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.37575757575757573"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43817204301075263"></attvalue>
+          <attvalue for="betweenesscentrality" value="80.67929570429571"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="31.38889"></viz:size>
+        <viz:position x="-540.74567" y="-165.64664"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="45" label="Landoccio di Neri de' Pagliaresi">
+        <attvalues>
+          <attvalue for="relationship" value="Neri's father, political figure"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2857142857142857"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3231182795698924"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.1099567099567103"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.277778"></viz:size>
+        <viz:position x="-790.30457" y="83.36027"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="46" label="Stefano di Corrado Maconi">
+        <attvalues>
+          <attvalue for="relationship" value="Nobleman, companion, scribe"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="1424"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.38509316770186336"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4690860215053763"></attvalue>
+          <attvalue for="betweenesscentrality" value="286.40647468473543"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="36.666668"></viz:size>
+        <viz:position x="-738.3214" y="-101.745964"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="47" label="Francesco di Vanni Malavolti">
+        <attvalues>
+          <attvalue for="relationship" value="Nobleman, government involved follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.45255474452554745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.49462365591397844"></attvalue>
+          <attvalue for="betweenesscentrality" value="97.7039408658974"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="-348.7584" y="-187.41377"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="52" label="Pietro di Giovanni Venture">
+        <attvalues>
+          <attvalue for="relationship" value="Follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.27927927927927926"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3102150537634409"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="-1129.0576" y="-102.57243"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="49" label="Niccolò di Toldo">
+        <attvalues>
+          <attvalue for="relationship" value="Pietro (48) staff"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3024390243902439"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3233870967741936"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="-538.7909" y="-836.73236"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="50" label="Rinaldini Family">
+        <attvalues>
+          <attvalue for="relationship" value="Powerful Sienese Family"></attvalue>
+          <attvalue for="gender" value="N"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.27927927927927926"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3102150537634409"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="-1109.1796" y="-240.44972"></viz:position>
+        <viz:color r="255" g="112" b="69"></viz:color>
+      </node>
+      <node id="51" label="Consiglio Generale">
+        <attvalues>
+          <attvalue for="relationship" value="Siense Government"></attvalue>
+          <attvalue for="gender" value="G"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3425414364640884"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3849462365591398"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4333333333333336"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="-677.85223" y="-276.668"></viz:position>
+        <viz:color r="0" g="199" b="255"></viz:color>
+      </node>
+      <node id="54" label="Jacomo di Sozzo Tolomei">
+        <attvalues>
+          <attvalue for="relationship" value="bishop of Narni, papal nunzio"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2831050228310502"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.32903225806451614"></attvalue>
+          <attvalue for="betweenesscentrality" value="61.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="-1191.5024" y="76.15099"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="55" label="Pope Urban VI">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="death" value="October 13, 1389"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.22142857142857142"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.24543010752688169"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="-1548.1552" y="153.02785"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="56" label="Nigi di Doccio Arzocchi">
+        <attvalues>
+          <attvalue for="relationship" value="Companion, nobleman"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.45925925925925926"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.510752688172043"></attvalue>
+          <attvalue for="betweenesscentrality" value="132.6340718460284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="23.472223"></viz:size>
+        <viz:position x="-433.22122" y="-232.40233"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="57" label="Gabriele di Davino Piccolomini">
+        <attvalues>
+          <attvalue for="relationship" value="Nobleman, follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4492753623188406"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4919354838709677"></attvalue>
+          <attvalue for="betweenesscentrality" value="81.99913733609382"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="18.194445"></viz:size>
+        <viz:position x="-373.0468" y="-292.45648"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="58" label="Cristofano di Gano Guidini">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.34831460674157305"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3897849462365591"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.676623376623377"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="-617.09186" y="-38.10325"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="59" label="Sano di Maco ">
+        <attvalues>
+          <attvalue for="relationship" value="Nobleman, follower, government"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.40522875816993464"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45080645161290317"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.6026556776556795"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.916667"></viz:size>
+        <viz:position x="127.39166" y="-44.20893"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="60" label="King Robert of Naples">
+        <attvalues>
+          <attvalue for="relationship" value="Raymond's father was advisor"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.28703703703703703"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.30940860215053756"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="1210.0432" y="-302.95267"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="61" label="Gherardo Buonconti">
+        <attvalues>
+          <attvalue for="relationship" value="Pisan citizen, noble"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4225806451612902"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="-45.752296" y="-297.8511"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="62" label="Piero Gambacorti">
+        <attvalues>
+          <attvalue for="relationship" value="Pisan ruler"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4225806451612902"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="573.2488" y="-586.8589"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="63" label="Fra Simone da Cortona">
+        <attvalues>
+          <attvalue for="relationship" value="Dominican follower"></attvalue>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4225806451612902"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.638889"></viz:size>
+        <viz:position x="602.50586" y="-471.88483"></viz:position>
+        <viz:color r="217" g="125" b="216"></viz:color>
+      </node>
+      <node id="64" label="Francesca (Cecca) Clement Gori">
+        <attvalues>
+          <attvalue for="relationship" value="Mantellate, scribe, disciple"></attvalue>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.41333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4763440860215053"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.547765090124415"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.833334"></viz:size>
+        <viz:position x="593.90717" y="-190.60124"></viz:position>
+        <viz:color r="140" g="185" b="0"></viz:color>
+      </node>
+      <node id="66" label="Dominican Order">
+        <attvalues>
+          <attvalue for="relationship" value="Religious Order"></attvalue>
+          <attvalue for="gender" value="R"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3897849462365589"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.239682539682539"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.555555"></viz:size>
+        <viz:position x="766.2671" y="93.77634"></viz:position>
+        <viz:color r="35" g="150" b="111"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="7" target="6">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="1" source="6" target="5">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="2" source="6" target="7">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="3" source="6" target="8">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="4" source="6" target="9">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="5" source="6" target="10">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="6" source="6" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="7" source="5" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="8" source="5" target="8">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="9" source="5" target="9">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="10" source="5" target="10">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="11" source="9" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="12" source="11" target="8">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="13" source="11" target="10">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="14" source="12" target="13">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="15" source="12" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="16" source="4" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="17" source="4" target="5">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="18" source="4" target="6">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="19" source="4" target="8">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="20" source="4" target="9">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="21" source="4" target="10">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="22" source="4" target="12">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="23" source="0" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="24" source="9" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="25" source="9" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="26" source="8" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="27" source="10" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="28" source="6" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="29" source="6" target="15">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="30" source="6" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="31" source="15" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="32" source="15" target="1">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="33" source="2" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="34" source="17" target="18">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="35" source="17" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="36" source="16" target="19">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="37" source="16" target="17">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="38" source="19" target="17">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="39" source="18" target="3">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="40" source="18" target="20">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="41" source="18" target="21">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="42" source="21" target="3">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="43" source="20" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="44" source="21" target="23">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="45" source="11" target="23">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="46" source="22" target="25">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="47" source="26" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="48" source="26" target="16">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="49" source="26" target="19">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="50" source="27" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="51" source="28" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="52" source="29" target="28">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="53" source="29" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="54" source="30" target="29">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="55" source="30" target="28">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="56" source="30" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="57" source="31" target="28">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="58" source="31" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="59" source="13" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="60" source="4" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="61" source="32" target="33">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="62" source="33" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="63" source="34" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="64" source="34" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="65" source="34" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="66" source="35" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="67" source="35" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="68" source="36" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="69" source="36" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="70" source="36" target="35">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="71" source="37" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="72" source="37" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="73" source="37" target="35">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="74" source="37" target="36">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="75" source="38" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="76" source="38" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="77" source="38" target="35">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="78" source="38" target="36">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="79" source="38" target="37">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="80" source="39" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="81" source="39" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="82" source="0" target="40">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="83" source="40" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="84" source="41" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="85" source="41" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="86" source="41" target="40">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="87" source="15" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="88" source="42" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="89" source="42" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="90" source="42" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="91" source="42" target="43">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="92" source="43" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="93" source="43" target="23">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="94" source="1" target="14">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="95" source="44" target="45">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="96" source="45" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="97" source="44" target="46">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="98" source="44" target="47">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="99" source="44" target="47">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="106" source="29" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="107" source="29" target="49">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="102" source="46" target="25">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="103" source="46" target="50">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="104" source="46" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="105" source="46" target="51">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="108" source="46" target="52">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="109" source="46" target="54">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="110" source="54" target="25">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="111" source="54" target="55">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="112" source="46" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="113" source="56" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="114" source="56" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="115" source="56" target="46">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="116" source="57" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="117" source="57" target="56">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="118" source="57" target="46">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="119" source="47" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="120" source="47" target="57">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="121" source="47" target="56">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="122" source="47" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="123" source="47" target="46">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="124" source="58" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="125" source="58" target="56">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="126" source="58" target="51">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="127" source="57" target="51">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="129" source="59" target="0">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="130" source="59" target="11">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="131" source="59" target="5">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="132" source="42" target="23">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="133" source="2" target="60">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="134" source="0" target="61">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="135" source="0" target="62">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="136" source="0" target="63">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="137" source="43" target="44">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="138" source="43" target="46">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="139" source="43" target="32">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="140" source="58" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="141" source="56" target="51">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="142" source="43" target="22">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="143" source="6" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="144" source="14" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="145" source="1" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="146" source="15" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="147" source="0" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="148" source="4" target="64">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="149" source="1" target="4">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="150" source="19" target="66">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="151" source="66" target="4">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="152" source="15" target="66">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="153" source="2" target="66">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="154" source="1" target="6">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="155" source="19" target="4">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="156" source="12" target="6">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="157" source="12" target="5">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="158" source="12" target="10">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="159" source="12" target="9">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+      <edge id="160" source="12" target="8">
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
